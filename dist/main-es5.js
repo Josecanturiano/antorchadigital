@@ -513,6 +513,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! @angular/core */
     "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/router */
+    "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
 
     var NavBarComponent = /*#__PURE__*/function () {
       function NavBarComponent() {
@@ -536,7 +542,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       selectors: [["app-nav-bar"]],
       decls: 7,
       vars: 0,
-      consts: [[1, "navbar", "navbar-expand-lg", "navbar-light"], ["href", "/home/general", 1, "navbar-brand"], ["src", "/assets/imgs/logo.png", "alt", "", 1, "logo"], ["href", "/home"], [1, "navbar-brand", 2, "color", "white", "text-decoration", "none"], ["id", "navbarSupportedContent", 1, "collapse", "navbar-collapse"]],
+      consts: [[1, "navbar", "navbar-expand-lg", "navbar-light"], ["routerLink", "/home/general", 1, "navbar-brand"], ["src", "/assets/imgs/logo.png", "alt", "", 1, "logo"], ["routerLink", "/home/general"], [1, "navbar-brand", 2, "color", "white", "text-decoration", "none"], ["id", "navbarSupportedContent", 1, "collapse", "navbar-collapse"]],
       template: function NavBarComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "nav", 0);
@@ -562,6 +568,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         }
       },
+      directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"]],
       styles: [".logo[_ngcontent-%COMP%] {\n    height: auto;\n    width: 100px;\n}\n\nnav[_ngcontent-%COMP%] {\n    background-color: rgb(184, 0, 0);\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvQ29tcG9uZW50cy9uYXYtYmFyL25hdi1iYXIuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFlBQVk7SUFDWixZQUFZO0FBQ2hCOztBQUVBO0lBQ0ksZ0NBQWdDO0FBQ3BDIiwiZmlsZSI6InNyYy9hcHAvQ29tcG9uZW50cy9uYXYtYmFyL25hdi1iYXIuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5sb2dvIHtcbiAgICBoZWlnaHQ6IGF1dG87XG4gICAgd2lkdGg6IDEwMHB4O1xufVxuXG5uYXYge1xuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYigxODQsIDAsIDApO1xufSJdfQ== */"]
     });
     /*@__PURE__*/
