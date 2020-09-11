@@ -536,7 +536,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       selectors: [["app-nav-bar"]],
       decls: 7,
       vars: 0,
-      consts: [[1, "navbar", "navbar-expand-lg", "navbar-light"], ["href", "/home", 1, "navbar-brand"], ["src", "/assets/imgs/logo.png", "alt", "", 1, "logo"], ["href", "/home"], [1, "navbar-brand", 2, "color", "white", "text-decoration", "none"], ["id", "navbarSupportedContent", 1, "collapse", "navbar-collapse"]],
+      consts: [[1, "navbar", "navbar-expand-lg", "navbar-light"], ["href", "/home/general", 1, "navbar-brand"], ["src", "/assets/imgs/logo.png", "alt", "", 1, "logo"], ["href", "/home"], [1, "navbar-brand", 2, "color", "white", "text-decoration", "none"], ["id", "navbarSupportedContent", 1, "collapse", "navbar-collapse"]],
       template: function NavBarComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "nav", 0);

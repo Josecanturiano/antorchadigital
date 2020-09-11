@@ -252,7 +252,7 @@ class NavBarComponent {
     }
 }
 NavBarComponent.ɵfac = function NavBarComponent_Factory(t) { return new (t || NavBarComponent)(); };
-NavBarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NavBarComponent, selectors: [["app-nav-bar"]], decls: 7, vars: 0, consts: [[1, "navbar", "navbar-expand-lg", "navbar-light"], ["href", "/home", 1, "navbar-brand"], ["src", "/assets/imgs/logo.png", "alt", "", 1, "logo"], ["href", "/home"], [1, "navbar-brand", 2, "color", "white", "text-decoration", "none"], ["id", "navbarSupportedContent", 1, "collapse", "navbar-collapse"]], template: function NavBarComponent_Template(rf, ctx) { if (rf & 1) {
+NavBarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NavBarComponent, selectors: [["app-nav-bar"]], decls: 7, vars: 0, consts: [[1, "navbar", "navbar-expand-lg", "navbar-light"], ["href", "/home/general", 1, "navbar-brand"], ["src", "/assets/imgs/logo.png", "alt", "", 1, "logo"], ["href", "/home"], [1, "navbar-brand", 2, "color", "white", "text-decoration", "none"], ["id", "navbarSupportedContent", 1, "collapse", "navbar-collapse"]], template: function NavBarComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "nav", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "a", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 2);
